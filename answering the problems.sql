@@ -8,7 +8,7 @@ SELECT
 FROM netflix
 GROUP BY 1
 
--- 2. Find the most common rating for movies and TV shows-
+-- 2. Find the most common rating for movies and TV shows--
 
 WITH RatingCounts AS (
     SELECT 
